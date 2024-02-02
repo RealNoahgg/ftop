@@ -1,0 +1,13 @@
+version: 1.0
+name: FactionsTop
+main: me.ifamasssxd.factionstop.FactionsTop
+softdepend: [CosmicWebLink, FactionUpgrades, CosmicFactionPoints]
+depend: [Factions, Arkkit, Vault, Essentials, DecimateCommons]
+commands:
+  ftop:
+    description: Factions top command.
+  recalcftop:
+    description: Recalculate the factions top manually.
+  editftop:
+    description: Edit ftop variables.
+    aliases: [editfactionstop]
